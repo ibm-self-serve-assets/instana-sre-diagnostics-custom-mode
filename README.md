@@ -64,7 +64,7 @@ curl -X GET https://your-instana-mcp-server/health
 #### 1. Investigating Performance Issues
 
 ```
-Ask Bob: "Analyze the performance of service X in the last hour"
+Ask Bob: "Analyze the performance of service <service_name> in the last hour"
 ```
 
 Bob will query Instana metrics and provide insights on:
@@ -76,7 +76,7 @@ Bob will query Instana metrics and provide insights on:
 #### 2. Troubleshooting Incidents
 
 ```
-Ask Bob: "What caused the spike in errors for application Y at 2:30 PM?"
+Ask Bob: "What caused the spike in errors for application <name_of_application_perspective> at 2:30 PM?"
 ```
 
 Bob will:
@@ -87,7 +87,7 @@ Bob will:
 #### 3. Infrastructure Health Checks
 
 ```
-Ask Bob: "Check the health of our Kubernetes cluster"
+Ask Bob: "Check the health of Kubernetes cluster <cluster_name>"
 ```
 
 Bob will provide:
@@ -99,7 +99,7 @@ Bob will provide:
 #### 4. Dependency Analysis
 
 ```
-Ask Bob: "Show me the service dependencies for microservice Z"
+Ask Bob: "Show me the service dependencies for microservices of application <application_name>"
 ```
 
 Bob will visualize:
